@@ -1,0 +1,52 @@
+h1{
+    text-align: center;
+    color: white;
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 50px;
+}
+body {
+    display: inline;
+    background-color: #212121;
+}
+.board{
+    position: absolute;
+    padding:5px 426px;
+    /*margin: 10px auto;*/
+}
+div.row {
+    clear: both;
+    height: auto;
+}
+
+div.space {
+    min-height: 60px;
+    height: 60px;
+    width: 60px;
+    border: 1px;
+    border-style: solid;
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+    display: inline;
+    font-family: Calibri;
+    font-size: 48px;
+    cursor: pointer;
+}
+
+div.black {
+    background-color: #E3B886;
+
+}
+
+div.white {
+    background-color: #915209;
+}
+
+div.piece-hover {
+    background-color: crimson;
+}
+
+div.piece-dropped {
+    background-color: #ccffff;
+}
